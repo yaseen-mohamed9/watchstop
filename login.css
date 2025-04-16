@@ -1,0 +1,456 @@
+/*  start rools */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    margin:0;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    
+}
+
+
+.container {
+    width: 1240px;
+    margin: auto;
+}
+
+.parint-container {
+    background: linear-gradient(#00000068,#0000006c),url(./IMAGE/image.webp);
+    width: 100%;
+    height: 67vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+span {
+    color: #30e3ca;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.button {
+    padding: 10px 18px;
+    background-color: #30e3ca;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+}
+/*  end rools */
+/* -------------------------------------------------------------------- */
+/* start style nav  */
+
+.header-nav {
+    padding-top: 25px;
+}
+
+Nav {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 25px ;
+    width: 100%;
+    border-radius: 15px;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 10px; 
+}
+
+nav .nav-item .nav-link {
+    color: #051441 ;
+    padding: 20px 10px;
+    position: relative;
+    transition: all 0.3s;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+nav .nav-item .nav-link:hover,
+nav .nav-item .nav-link:hover::before,
+nav .nav-item .nav-link.active {
+    color: #30e3ca;
+    background-color: #00000000;
+}
+
+nav .nav-item .nav-link:hover::before,
+nav .nav-item .nav-link.active::before {
+    width: calc(100% - 40px);
+}
+
+/* end style nav  */
+/* -------------------------------- */
+/* start section-1 */
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin-bottom: 50px;
+}
+
+.section-1 h1 {
+    color: #fff;
+    font-size: 35px ; 
+    margin-bottom: 10px;
+}
+/* end section-1 */
+/* ----------------------------- */
+/* start section-2 */
+section {
+    padding: 70px 0;
+}
+
+.contact .container {
+    padding: 0 60px;
+}
+
+.login .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.login .col-md-7 {
+    position: relative;
+    width: 100%;
+    padding: 30px; 
+    background-color: #f8f9fa; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login form .form-group {
+    width: 50%; 
+    padding: 0 5px;
+    margin-bottom: 15px; 
+}
+
+.login form .form-group label {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    display: inline-block;
+    margin: 5px 0; /* Add margin top and bottom */
+    color: #555;
+}
+
+.login .form-group  {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin: 10px 0; 
+}
+
+.login form .form-group input:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.login form button[type="submit"] {
+    background-color: #30e3ca;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login form button[type="submit"]:hover {
+    background-color: #22c5ac;
+}
+
+.login form p span {
+    color: #30e3ca;
+}
+/* end section-2 */
+/* ----------------------- */
+/* start section-3 */
+.email {
+    background-color: #30e3ca;
+    color: white;
+    padding: 40px 0;
+}
+
+.email .container{
+    width: 100%;
+    padding: 0 60px;
+}
+
+.align-items-center{
+    display: flex;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-md-6{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-md-6 h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.col-md-6 p{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #fff;
+}
+
+.email {
+    background-color: #30e3ca;
+    color: white;
+    padding: 40px 0;
+}
+
+.email form{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.email .form-control {
+    display: block;
+    width: 50%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+
+
+.email .col-md-6 .form-control {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: none;
+    padding-left: 0;
+    box-shadow: unset;
+}
+
+.btn {
+    width: 94px;
+    height: 38px;
+    background-color: white;
+    color: black;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #30e3ca;
+    border: 1px solid white;
+}
+
+.email .col-md-6 .form-control::placeholder{
+    color: white;
+    font-style: italic;
+}
+
+/* end section-3 */
+/* --------------------- */
+/* start footer */
+footer {
+    padding: 70px 0;
+    background-color: #333;
+    color: white;
+}
+
+footer .container{
+    width: 100%;
+    padding: 0 60px;
+}
+
+footer .container .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+footer .col-lg-4{
+    width: 33.3333%;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+footer .col-lg-4 h6{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer .col-lg-4 p{
+    color: #888;
+    font-size: 14px;
+}
+
+footer .col-lg-2 h6{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer .col-lg-2 ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    color: #888;
+    font-size: 14px;
+}
+
+footer .info p,
+footer .info li,
+footer .info i {
+    color: #888;
+    font-size: 14px;
+    margin: 0 20px;
+}
+
+footer .info li {
+    margin-bottom: 5px;
+}
+
+footer .info d-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 75px;
+    margin-left: auto;
+}
+
+footer .info .d-flex {
+    display: flex;
+    align-items: flex-end; 
+}
+
+footer .info .d-flex .form-control {
+    flex: 1;
+}
+
+footer .info .d-flex .btn {
+    background: #30e3ca;
+    color: #fff;
+    font-weight: 400;
+}
+
+footer .info .d-flex .text-white {
+    color: #fff!important
+}
+
+footer .info .d-flex .w-100{
+    width: 100%!important;
+}
+
+footer .info .d-flex .border-secondary{
+    border-color: #6c757d!important;
+}
+
+footer .info .d-flex .bg-transparent{
+    background-color: transparent!important;
+}
+
+footer .info .d-flex .form-control{
+    display: flex;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+
+footer .col-lg-4 .btn:hover {
+    color: #212529;
+    text-decoration: none
+}
+
+footer .copyright p {
+    padding: 50px 0;
+    font-size: 14px;
+    color: #888;
+    text-align: center;
+}
+/* end footer */
