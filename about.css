@@ -804,3 +804,71 @@ footer .copyright p {
     text-align: center;
 }
 /* end footer */
+
+@media (max-width: 767.98px) {
+    .container {
+        width: 100%; 
+        padding: 0 15px; 
+    }
+
+    .parint-container {
+        height: auto; 
+    }
+
+    .home {
+        height: auto; 
+        padding: 20px;
+    }
+
+    .home h1 {
+        font-size: 28px;
+    }
+
+    .home form {
+        padding: 10px;
+    }
+
+    .section-2 .col-md-6 {
+        width: 100%; 
+    }
+
+    .section-4 .col-md-6 {
+        width: 100%; 
+    }
+
+    .email .col-md-6 {
+        width: 100%;
+        text-align: center; 
+        margin-bottom: 15px;
+    }
+
+    .email form {
+        justify-content: center; 
+    }
+
+    footer .col-lg-4,
+    footer .col-lg-2 {
+        width: 100%; 
+        margin-bottom: 20px;
+        text-align: center; 
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    .section-2 .col-md-6 {
+        width: 50%; 
+    }
+
+    .section-4 .col-md-6 {
+        width: 50%; 
+    }
+}
+
+
+@media (max-width: 1199.98px) {
+    .container {
+        width: 960px; 
+    }
+}
+
